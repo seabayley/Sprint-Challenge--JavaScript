@@ -15,7 +15,7 @@ class CuboidMaker {
     }
 }
 
-cuboid = new CuboidMaker(4, 5, 5);
+const cuboid = new CuboidMaker(4, 5, 5);
 // Test your volume and surfaceArea methods by uncommenting the logs below:
 console.log(cuboid.volume()); // 100
 console.log(cuboid.surfaceArea()); // 130
@@ -33,7 +33,7 @@ class CubeMaker extends CuboidMaker {
     }
 }
 
-cube = new CubeMaker(5);
+const cube = new CubeMaker(5);
 
 console.log(cube.volume()); // 125
 console.log(cube.surfaceArea()); // 150
